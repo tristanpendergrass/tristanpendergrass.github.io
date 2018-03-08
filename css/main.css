@@ -14,3 +14,34 @@ body {
 .header h1 {
   font-size: 3em;
 }
+.avatar {
+  float: left;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.info {
+  display: inline-block;
+  width: calc(100% - 160px);
+  float: right;
+}
+.data-row {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1em;
+}
+.key {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: calc(50% - 4px);
+}
+.value {
+  margin-left: calc(50% - 4px);
+  display: inline-block;
+  width: calc(50% - 4px);
+}
+.tabs-group {
+  font-family: Arial;
+}
